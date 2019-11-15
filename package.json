@@ -4,13 +4,23 @@
   "description": "Revolut Frontend Mail Challenge",
   "main": "src/index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --debug"
+    "start": "webpack-dev-server --mode development --debug",
+    "test": "jest"
   },
   "author": "Alexander Negreev",
   "license": "MIT",
+  "jest": {
+    "scriptPreprocessor": "./node_modules/babel-jest",
+    "unmockedModulePathPatterns": [
+      "./node_modules/react",
+      "./node_modules/react-dom",
+      "./node_modules/react-addons-test-utils",
+      "./node_modules/fbjs"
+    ]
+  },
   "dependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.7.0",
     "axios": "^0.18.0",
+    "babel-jest": "^24.9.0",
     "babel-polyfill": "^6.26.0",
     "classnames": "^2.2.5",
     "env": "0.0.2",
@@ -48,6 +58,7 @@
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-standard": "^4.0.1",
     "http-proxy-middleware": "^0.17.4",
+    "jest": "^24.9.0",
     "less": "^3.8.1",
     "less-loader": "^4.0.5",
     "style-loader": "^0.20.2",

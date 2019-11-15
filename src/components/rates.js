@@ -1,13 +1,13 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { connect } from "react-redux";
-import { currencyChar, currencyValue } from "src/helpers";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import { currencyChar, currencyValue } from 'src/helpers';
 
-import { RatesComponent, Value, Equal, Currency } from "./ratesStyle";
+import { RatesComponent, Value, Equal, Currency } from './ratesStyle';
 
 class Rates extends React.Component {
   render() {
-    const { currencyFrom, currencyTo, quotes, mini } = this.props;
+    const { currencyFrom, currencyTo, quotes } = this.props;
 
     return (
       <RatesComponent>
@@ -37,5 +37,5 @@ Rates.propTypes = {
 };
 
 export default connect(state => ({
-  quotes: state.get("Quotes").toJS()
+  quotes: state.get('Quotes').toJS()
 }))(Rates);
