@@ -1,0 +1,2 @@
+export const SET_QUOTATIONS = 'SET_QUOTATIONS';
+export const MAKE_EXCHANGE = 'MAKE_EXCHANGE';
