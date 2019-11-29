@@ -1,0 +1,571 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Currency selector component test  1`] = `
+<div
+  className="sc-bdVaJa imjCLz"
+>
+  <div
+    className="sc-bwzfXH eNZAvN"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    selected={false}
+    tabIndex={0}
+  >
+    GBP
+  </div>
+  <div
+    className="sc-bwzfXH iFzPSC"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    selected={true}
+    tabIndex={0}
+  >
+    USD
+  </div>
+  <div
+    className="sc-bwzfXH eNZAvN"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    selected={false}
+    tabIndex={0}
+  >
+    EUR
+  </div>
+</div>
+`;
+
+exports[`Currency selector component test 1`] = `
+<div
+  className="sc-bdVaJa imjCLz"
+>
+  <div
+    className="sc-bwzfXH eNZAvN"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    selected={false}
+    tabIndex={0}
+  >
+    GBP
+  </div>
+  <div
+    className="sc-bwzfXH iFzPSC"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    selected={true}
+    tabIndex={0}
+  >
+    USD
+  </div>
+  <div
+    className="sc-bwzfXH eNZAvN"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    selected={false}
+    tabIndex={0}
+  >
+    EUR
+  </div>
+</div>
+`;
+
+exports[`General App test 1`] = `
+<div
+  className="sc-gzVnrw fKgFaz"
+>
+  <div
+    className="sc-bdVaJa imjCLz"
+  >
+    <div
+      className="sc-bwzfXH iFzPSC"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      selected={true}
+      tabIndex={0}
+    >
+      GBP
+    </div>
+    <div
+      className="sc-bwzfXH eNZAvN"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      selected={false}
+      tabIndex={0}
+    >
+      USD
+    </div>
+    <div
+      className="sc-bwzfXH eNZAvN"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      selected={false}
+      tabIndex={0}
+    >
+      EUR
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs cDGZju"
+  >
+    <div>
+      <div
+        className="sc-dnqmqq gnUkkk"
+      >
+        GBP
+      </div>
+      <div
+        className="sc-bZQynM hPoDmq"
+      >
+        <span>
+          You have: 
+          £
+          500.00
+        </span>
+      </div>
+    </div>
+    <div>
+      <input
+        className="sc-iwsKbI mRYEu"
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+        value=""
+      />
+      <div
+        className="sc-htpNat eFITXY"
+      >
+        <div
+          className="sc-bxivhb jzkpli"
+        >
+          <span
+            className="sc-EHOje hMbVuB"
+          >
+            £
+          </span>
+          <span>
+            1
+          </span>
+        </div>
+        <div
+          className="sc-ifAKCX kKKcRI"
+        >
+          =
+        </div>
+        <div
+          className="sc-bxivhb jzkpli"
+        >
+          <span
+            className="sc-EHOje hMbVuB"
+          >
+            $
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gZMcBi liGWgh"
+  >
+    <div
+      className="sc-bdVaJa imjCLz"
+    >
+      <div
+        className="sc-bwzfXH eNZAvN"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        selected={false}
+        tabIndex={0}
+      >
+        GBP
+      </div>
+      <div
+        className="sc-bwzfXH iFzPSC"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        selected={true}
+        tabIndex={0}
+      >
+        USD
+      </div>
+      <div
+        className="sc-bwzfXH eNZAvN"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        selected={false}
+        tabIndex={0}
+      >
+        EUR
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs cDGZju"
+    >
+      <div>
+        <div
+          className="sc-dnqmqq gnUkkk"
+        >
+          USD
+        </div>
+        <div
+          className="sc-bZQynM hPoDmq"
+        >
+          <span>
+            You have: 
+            $
+            0
+          </span>
+        </div>
+      </div>
+      <div>
+        <input
+          className="sc-iwsKbI mRYEu"
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          value="0.00"
+        />
+        <div
+          className="sc-htpNat eFITXY"
+        >
+          <div
+            className="sc-bxivhb jzkpli"
+          >
+            <span
+              className="sc-EHOje hMbVuB"
+            >
+              $
+            </span>
+            <span>
+              1
+            </span>
+          </div>
+          <div
+            className="sc-ifAKCX kKKcRI"
+          >
+            =
+          </div>
+          <div
+            className="sc-bxivhb jzkpli"
+          >
+            <span
+              className="sc-EHOje hMbVuB"
+            >
+              £
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="sc-gqjmRU rzgwy"
+    onClick={[Function]}
+  >
+    Exchange
+  </button>
+</div>
+`;
+
+exports[`General test  1`] = `
+<div
+  className="sc-gzVnrw fKgFaz"
+>
+  <div
+    className="sc-bdVaJa imjCLz"
+  >
+    <div
+      className="sc-bwzfXH iFzPSC"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      selected={true}
+      tabIndex={0}
+    >
+      GBP
+    </div>
+    <div
+      className="sc-bwzfXH eNZAvN"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      selected={false}
+      tabIndex={0}
+    >
+      USD
+    </div>
+    <div
+      className="sc-bwzfXH eNZAvN"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      selected={false}
+      tabIndex={0}
+    >
+      EUR
+    </div>
+  </div>
+  <div
+    className="sc-htoDjs cDGZju"
+  >
+    <div>
+      <div
+        className="sc-dnqmqq gnUkkk"
+      >
+        GBP
+      </div>
+      <div
+        className="sc-bZQynM hPoDmq"
+      >
+        <span>
+          You have: 
+          £
+          500.00
+        </span>
+      </div>
+    </div>
+    <div>
+      <input
+        className="sc-iwsKbI mRYEu"
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+        value=""
+      />
+      <div
+        className="sc-htpNat eFITXY"
+      >
+        <div
+          className="sc-bxivhb jzkpli"
+        >
+          <span
+            className="sc-EHOje hMbVuB"
+          >
+            £
+          </span>
+          <span>
+            1
+          </span>
+        </div>
+        <div
+          className="sc-ifAKCX kKKcRI"
+        >
+          =
+        </div>
+        <div
+          className="sc-bxivhb jzkpli"
+        >
+          <span
+            className="sc-EHOje hMbVuB"
+          >
+            $
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gZMcBi liGWgh"
+  >
+    <div
+      className="sc-bdVaJa imjCLz"
+    >
+      <div
+        className="sc-bwzfXH eNZAvN"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        selected={false}
+        tabIndex={0}
+      >
+        GBP
+      </div>
+      <div
+        className="sc-bwzfXH iFzPSC"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        selected={true}
+        tabIndex={0}
+      >
+        USD
+      </div>
+      <div
+        className="sc-bwzfXH eNZAvN"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        selected={false}
+        tabIndex={0}
+      >
+        EUR
+      </div>
+    </div>
+    <div
+      className="sc-htoDjs cDGZju"
+    >
+      <div>
+        <div
+          className="sc-dnqmqq gnUkkk"
+        >
+          USD
+        </div>
+        <div
+          className="sc-bZQynM hPoDmq"
+        >
+          <span>
+            You have: 
+            $
+            0
+          </span>
+        </div>
+      </div>
+      <div>
+        <input
+          className="sc-iwsKbI mRYEu"
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          value="0.00"
+        />
+        <div
+          className="sc-htpNat eFITXY"
+        >
+          <div
+            className="sc-bxivhb jzkpli"
+          >
+            <span
+              className="sc-EHOje hMbVuB"
+            >
+              $
+            </span>
+            <span>
+              1
+            </span>
+          </div>
+          <div
+            className="sc-ifAKCX kKKcRI"
+          >
+            =
+          </div>
+          <div
+            className="sc-bxivhb jzkpli"
+          >
+            <span
+              className="sc-EHOje hMbVuB"
+            >
+              £
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="sc-gqjmRU rzgwy"
+    onClick={[Function]}
+  >
+    Exchange
+  </button>
+</div>
+`;
+
+exports[`Rates component test  1`] = `
+<div
+  className="sc-htpNat eFITXY"
+>
+  <div
+    className="sc-bxivhb jzkpli"
+  >
+    <span
+      className="sc-EHOje hMbVuB"
+    >
+      £
+    </span>
+    <span>
+      1
+    </span>
+  </div>
+  <div
+    className="sc-ifAKCX kKKcRI"
+  >
+    =
+  </div>
+  <div
+    className="sc-bxivhb jzkpli"
+  >
+    <span
+      className="sc-EHOje hMbVuB"
+    >
+      $
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rates component test 1`] = `
+<div
+  className="sc-htpNat eFITXY"
+>
+  <div
+    className="sc-bxivhb jzkpli"
+  >
+    <span
+      className="sc-EHOje hMbVuB"
+    >
+      £
+    </span>
+    <span>
+      1
+    </span>
+  </div>
+  <div
+    className="sc-ifAKCX kKKcRI"
+  >
+    =
+  </div>
+  <div
+    className="sc-bxivhb jzkpli"
+  >
+    <span
+      className="sc-EHOje hMbVuB"
+    >
+      $
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Wallet status component test  1`] = `
+<div
+  className="sc-bZQynM hPoDmq"
+>
+  <span>
+    You have: 
+    €
+    50.00
+  </span>
+</div>
+`;
+
+exports[`Wallet status component test 1`] = `
+<div
+  className="sc-bZQynM hPoDmq"
+>
+  <span>
+    You have: 
+    €
+    50.00
+  </span>
+</div>
+`;

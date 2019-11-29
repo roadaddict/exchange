@@ -1,21 +1,21 @@
-import { Convert } from "src/helpers";
+import { Convert } from '../helpers';
 
 export const doExchange = (value, currencyFrom, currencyTo) => (
   dispatch,
   getState
 ) =>
   dispatch({
-    type: "DO_EXCHANGE",
+    type: 'DO_EXCHANGE',
     payload: {
       valFrom: parseFloat(value),
       valTo: parseFloat(
         Convert(
           value,
           getState()
-            .get("Quotes")
+            .get('Quotes')
             .get(currencyFrom),
           getState()
-            .get("Quotes")
+            .get('Quotes')
             .get(currencyTo)
         )
       ),

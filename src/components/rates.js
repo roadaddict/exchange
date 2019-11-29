@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { currencyChar, currencyValue } from 'src/helpers';
+import { currencyChar, currencyValue } from '../helpers';
 
 import { RatesComponent, Value, Equal, Currency } from './ratesStyle';
 

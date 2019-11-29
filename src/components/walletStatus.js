@@ -1,8 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { connect } from "react-redux";
-import { currencyChar } from "src/helpers";
-import { WalletStatusComponent } from "./walletStatusStyle";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import { currencyChar } from '../helpers';
+import { WalletStatusComponent } from './walletStatusStyle';
 
 class WalletStatus extends React.Component {
   render() {
@@ -25,5 +25,5 @@ WalletStatus.propTypes = {
 };
 
 export default connect(state => ({
-  balance: state.get("Balance").toJS()
+  balance: state.get('Balance').toJS()
 }))(WalletStatus);

@@ -1,7 +1,7 @@
-import { Map, List } from "immutable";
+import { Map, List } from 'immutable';
 
 const initState = Map({
-  preferred: List(["GBP", "USD", "EUR"]),
+  preferred: List(['GBP', 'USD', 'EUR']),
   values: Map({
     GBP: 500,
     USD: 0,
@@ -11,16 +11,16 @@ const initState = Map({
 
 const quotes = (state = initState, action) => {
   switch (action.type) {
-    case "DO_EXCHANGE":
+    case 'DO_EXCHANGE':
       state = state.setIn(
-        ["values", action.payload.currencyFrom],
-        state.getIn(["values", action.payload.currencyFrom]) -
+        ['values', action.payload.currencyFrom],
+        state.getIn(['values', action.payload.currencyFrom]) -
           action.payload.valFrom
       );
 
       state = state.setIn(
-        ["values", action.payload.currencyTo],
-        state.getIn(["values", action.payload.currencyTo]) +
+        ['values', action.payload.currencyTo],
+        state.getIn(['values', action.payload.currencyTo]) +
           action.payload.valTo
       );
 

@@ -1,12 +1,12 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { connect } from "react-redux";
-import { updateQuotes } from "actions/quotesActions";
-import { doExchange } from "actions/walletActions";
-import { Convert, Validation, ifValue } from "./helpers";
-import SelectCurrency from "./components/selectCurrency";
-import Rates from "./components/rates";
-import WalletStatus from "./components/walletStatus";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import { updateQuotes } from './actions/quotesActions';
+import { doExchange } from './actions/walletActions';
+import { Convert, Validation, ifValue } from './helpers';
+import SelectCurrency from './components/selectCurrency';
+import Rates from './components/rates';
+import WalletStatus from './components/walletStatus';
 
 import {
   Main,
@@ -15,15 +15,15 @@ import {
   CurrencyInput,
   CurrencyTo,
   Button
-} from "./AppStyles";
+} from './AppStyles';
 
 class App extends React.Component {
   state = {
     isSourceFrom: true,
-    currencyFrom: "GBP",
-    currencyTo: "USD",
-    valFrom: "",
-    valTo: ""
+    currencyFrom: 'GBP',
+    currencyTo: 'USD',
+    valFrom: '',
+    valTo: ''
   };
 
   static getDerivedStateFromProps(nextProps, prevState) {
@@ -160,10 +160,10 @@ App.propTypes = {
 
 export default connect(
   state => ({
-    quotes: state.get("Quotes").toJS(),
+    quotes: state.get('Quotes').toJS(),
     balance: state
-      .get("Balance")
-      .get("values")
+      .get('Balance')
+      .get('values')
       .toJS()
   }),
   { updateQuotes, doExchange }
