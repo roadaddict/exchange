@@ -9,7 +9,7 @@ import { createStore, applyMiddleware } from 'redux';
 import RootReducer from './reducers';
 import thunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
-import { shallow } from 'enzyme';
+import { shallow, mount, render } from 'enzyme';
 
 const store = createStore(
   RootReducer,
@@ -17,9 +17,14 @@ const store = createStore(
 );
 
 describe('<App /> test with Enzime', () => {
-  it('renders three <Foo /> components', () => {
-    const wrapper = shallow(<App />);
-    // expect(wrapper.find(Foo)).to.have.lengthOf(3);
+  it.only('renders an <App /> component', () => {
+    const wrapper = shallow(
+      <Provider store={store}>
+        <App />
+      </Provider>
+    );
+
+    expect(wrapper.find(App)).toMatchSnapshot();
   });
 });
 

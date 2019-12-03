@@ -110,6 +110,7 @@ class App extends React.Component {
           </div>
           <div>
             <CurrencyInput
+              className="currency-input"
               value={valFrom}
               onChange={this.changeFrom}
               onFocus={this.changeFrom}
@@ -118,7 +119,6 @@ class App extends React.Component {
             <Rates currencyFrom={currencyFrom} currencyTo={currencyTo} />
           </div>
         </Separator>
-
         <CurrencyTo>
           <SelectCurrency
             selected={currencyTo}
@@ -131,6 +131,7 @@ class App extends React.Component {
             </div>
             <div>
               <CurrencyInput
+                className="currency-output"
                 value={valTo}
                 onChange={this.changeTo}
                 onFocus={this.changeTo}

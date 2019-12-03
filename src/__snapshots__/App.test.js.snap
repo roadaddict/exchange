@@ -1,5 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<App /> test with Enzime renders an <App /> component 1`] = `ShallowWrapper {}`;
+
 exports[`Currency selector component test  1`] = `
 <div
   className="sc-bdVaJa imjCLz"
