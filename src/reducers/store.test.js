@@ -1,14 +1,22 @@
 import { createStore, applyMiddleware } from 'redux';
 import RootReducer from '../reducers';
 import thunk from 'redux-thunk';
-import { composeWithDevTools } from 'redux-devtools-extension';
+import configureMockStore from 'redux-mock-store';
+import fetchMock from 'fetch-mock';
+
+const middlewares = [thunk];
+const mockStore = configureMockStore(middlewares);
 
 describe('On load', () => {
+  afterEach(() => {
+    fetchMock.reset();
+    fetchMock.restore();
+  });
+
   it('should do something', () => {
-    const store = createStore(
-      RootReducer,
-      composeWithDevTools(applyMiddleware(thunk))
-    );
+    const store = mockStore({
+      GBP: 10
+    });
 
     const action = {
       type: 'SET_QUOTES',
@@ -19,11 +27,8 @@ describe('On load', () => {
       }
     };
 
-    store.dispatch(action).then(() => {
-      console.log(actual);
+    return store.dispatch(action).then(() => {
       const actual = store.getState();
     });
-
-    // TODO: assert value from store
   });
 });
